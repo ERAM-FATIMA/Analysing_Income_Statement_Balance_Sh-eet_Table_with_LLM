@@ -1,99 +1,79 @@
-📝 PDF Table Extraction & Summarization
-Welcome to the PDF Table Extraction & Summarization project! This application is designed to make working with PDF documents easy and efficient. Upload your PDFs, extract tables effortlessly, and summarize them with AI-powered tools—all through an intuitive and interactive Streamlit interface.
+#🖋️ AI-Powered Table Analysis & Summarization Tool
+Welcome to the AI-Powered Table Analysis & Summarization Tool! This project helps you analyze tables from PDFs with ease. Upload a PDF, extract its tables, and get concise AI-generated summaries. Built with Streamlit, this application offers a seamless experience for processing complex financial data.
 
-🌟 Features
-📤 Upload PDFs: Easily upload your PDF documents through a sleek user interface.
-👀 Preview PDFs: Quickly preview your PDF content within the app.
-📊 Extract Tables: Automatically identify and extract tables from PDFs with precision.
-📝 Summarize Tables: Use AI-driven summarization to generate concise and meaningful insights from extracted tables.
-🧹 Automatic Cleanup: Temporary files are cleaned up after processing, ensuring security and efficiency.
-🛠️ Installation
-Follow these steps to set up the project on your local machine:
+##🌟 Key Features
+📂 Upload PDF Documents: Easily upload PDFs through an intuitive interface.
+📖 Preview PDF Content: View the content of uploaded PDFs in-app.
+📊 Extract Tables: Automatically detect and extract tables from uploaded PDFs.
+✍️ AI Summarization: Generate clear, meaningful summaries for the extracted tables.
+🧹 Cleanup: Ensures all temporary files are securely deleted post-processing.
+🛠️ Installation Guide
+Follow these steps to set up the project on your system:
 
-1️⃣ Clone the Repository:
+##1️⃣ Clone the Repository
 bash
 Copy code
-git clone https://github.com/yourusername/pdf-table-extraction.git  
-cd pdf-table-extraction  
-Replace https://github.com/yourusername/pdf-table-extraction.git with your repository link.
+git clone https://github.com/ERAM-FATIMA/Analysing_Income_Statement_Balance_Sh-eet_Table_with_LLM.git
+cd Analysing_Income_Statement_Balance_Sh-eet_Table_with_LLM
+##2️⃣ Set Up a Virtual Environment (Recommended)
+Create a virtual environment to isolate dependencies:
 
-2️⃣ Create a Virtual Environment (Optional but Recommended):
 bash
 Copy code
-python -m venv venv  
+python -m venv venv
 Activate the Virtual Environment:
 Windows:
 bash
 Copy code
-venv\Scripts\activate  
+venv\Scripts\activate
 macOS/Linux:
 bash
 Copy code
-source venv/bin/activate  
-3️⃣ Install Dependencies:
-bash
-Copy code
-pip install -r requirements.txt  
-🚀 Usage
-Run the application with the following command:
+source venv/bin/activate
+##3️⃣ Install Dependencies
+Install the required Python libraries:
 
 bash
 Copy code
-streamlit run app.py  
-Once the app is running:
+pip install -r requirements.txt
+##🖥️ How to Use
+###1️⃣ Run the Application
+Start the Streamlit app using:
 
-📂 Upload Your PDF: Use the sidebar to upload a PDF.
-🔍 Preview the PDF: View the uploaded document directly in the app.
-📑 Extract Tables: Automatically extract tables and view them in expandable sections.
-📝 Summarize Tables: Generate AI-based summaries for each extracted table.
-📁 Project Structure
+bash
+Copy code
+streamlit run app.py
+###2️⃣ Upload and Process PDFs
+Use the file uploader to select your PDF.
+Preview the content, and the app will automatically extract tables.
+Click on the summarization feature to get detailed summaries.
+##📂 Project Structure
 plaintext
 Copy code
-pdf-table-extraction/  
-├── app.py              # Main Streamlit application  
-├── requirements.txt    # Python dependencies  
-├── utils/              # Utility scripts  
-│   ├── table_extraction.py    # Handles table extraction  
-│   └── summarization.py       # Summarizes extracted tables  
-├── README.md           # Project overview and setup instructions  
-└── assets/             # Optional: For icons or additional visuals  
-    └── icons/          # Icons for UI elements  
-🧰 Dependencies
-This project utilizes the following libraries:
+.
+├── app.py                # Main Streamlit application
+├── requirements.txt      # List of dependencies
+├── utils/                # Folder containing utility scripts
+│   ├── table_extraction.py  # PDF table extraction logic
+│   └── summarization.py     # AI summarization functionality
+├── assets/               # (Optional) Folder for icons or additional files
+└── README.md             # This documentation file
+##🧰 Dependencies
+This project relies on the following Python libraries:
 
-Streamlit: For building the interactive interface
-Pandas: For data handling and manipulation
-PyPDF2: For PDF processing
-Mistralai: For AI-powered summarization
-Full List of Dependencies:
-plaintext
-Copy code
-streamlit  
-pandas  
-PyPDF2  
-mistralai  
-🌐 Contributing
-Contributions are welcome! Here's how to get started:
+Streamlit: For creating the web interface.
+Pandas: For data manipulation and table handling.
+PyPDF2: For extracting tables from PDFs.
+Mistralai: For AI-powered summarization (ensure proper setup).
+Install them via:
 
-Fork the Repository
-Create a New Branch:
 bash
 Copy code
-git checkout -b feature/YourFeature  
-Commit Your Changes:
-bash
-Copy code
-git commit -m "Add your feature or fix description"  
-Push to the Branch:
-bash
-Copy code
-git push origin feature/YourFeature  
-Open a Pull Request
-📝 License
-This project is licensed under the MIT License.
+pip install streamlit pandas PyPDF2 mistralai
+##🌐 Useful Links
+GitHub Profile: [Eram's GitHub](https://github.com/ERAM-FATIMA)
+Repository: [Project Repository](https://github.com/ERAM-FATIMA/Analysing_Income_Statement_Balance_Sh-eet_Table_with_LLM)
+##📧 Contact
+For any inquiries, feel free to reach out to me on GitHub:
+GitHub Profile
 
-📧 Contact
-For any questions or feedback, feel free to reach out:
-
-GitHub Profile: [https://github.com/ERAM-FATIMA](URL)
-Repository: [https://github.com/ERAM-FATIMA/Analysing_Income_Statement_Balance_Sh-eet_Table_with_LLM](URL)
